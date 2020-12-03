@@ -21,12 +21,20 @@
 - Iteration
 - File I/O
 - Exception handling
+    - catches errors
+    - avoid hard crashes
+    - good for user experience
 - Modules
+    - collections of codes written by other people
+    - http://docs.python.org/3/library/
 
 # Todo
 
 
 # Log
+03-Dec-2020 importing modules
+03-Dec-2020 exceptions
+03-Dec-2020 with statement
 03-Dec-2020 read, write
 03-Dec-2020 organization, main, for
 01-Feb-2019 Basics
