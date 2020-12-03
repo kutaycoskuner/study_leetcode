@@ -28,6 +28,7 @@
     - Modules
         - collections of codes written by other people
         - http://docs.python.org/3/library/
+
 - <Intermediate>
     - Classes
         - data structure or type 
@@ -72,3 +73,14 @@
         - Packages
             - hierarchical structure to large compilations of modules
             - ex. physic engines, networking tools, gui
+
+- <Advanced>
+    - Templates
+        - part of string module
+        - allows data to change without having to edit the app
+        - can be modified with subclass
+        - errors
+            - key error: no key in template
+            - bad placeholder: value error
+        - ^ handled by safe_substitute()
+        - custom delimeter could be overrided

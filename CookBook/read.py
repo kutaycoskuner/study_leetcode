@@ -1,5 +1,5 @@
 def Main(): 
-    f = open("../database/sometext.txt","r") # :: r for read
+    f = open("database/sometext.txt","r") # :: r for read
     for line in f:
         print(line)
     f.close()
