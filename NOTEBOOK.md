@@ -48,6 +48,27 @@
             - allows all obj creation to be done in one line
         - Method Objects
             - the ability to store a function in variable
-    - Inheritence
+                - base / super class | sub-class
+        - Inheritence
+            - concept of class inheriting features from another class
+        - Polymorphism
+            - concept of dynamic methods chosen runtime
+            - subclasses must override the base class method
+        - Multiple Inheritence
+            - inherit from more than one base separating them with comma
     - Iterators and generators
+        - iterators
+            - Python uses __iter__() method to return an iterator object of the class
+            - then uses __next__() method to get next item
+        - generators
+            - another way to create iterators
+            - uses function rather than separate class
+            - uses called yield which saves the state of the generator
+            - allows iteration to be handled by single line exp.
     - Modulating code
+        - Process of splitting up our program into multiple files
+        - Allows complex packages to be made
+        - Great for writing tool packs for other developers
+        - Packages
+            - hierarchical structure to large compilations of modules
+            - ex. physic engines, networking tools, gui
