@@ -1,0 +1,53 @@
+# Notebook
+`Started 03-Dec-2020`
+
+- <Beginner>
+    - Variables and data structurees
+        - Variable
+            - integer
+            - real number
+            - booleann
+            - strings
+            - complex types
+                - lists
+                    - holds an array of values list = []
+                - dictionaries
+                    - similar to list but uses hash maps store key and value pairs
+                    - ex. dict = {'test': 21, 'ssh': 35}
+    - Input Output
+        - input(): gets a string froom user and puts in a variabe
+    - Selection
+        - allows program to make choices one of three programming concepts
+    - Functions
+    - Iteration
+    - File I/O
+    - Exception handling
+        - catches errors
+        - avoid hard crashes
+        - good for user experience
+    - Modules
+        - collections of codes written by other people
+        - http://docs.python.org/3/library/
+- <Intermediate>
+    - Classes
+        - data structure or type 
+        - holds data behaviour called as attributes and methods
+        - pattern to create object
+            - object is like variable hold whole class info inside
+        - Methods
+            - basic method (can do almost anything)
+            - special methods
+                - basic(initiation, new and delete)
+                - descriptors(get, set)
+                - container(for emulating list like classses)
+                - numeric(overriding operators of +-%)
+                - all methods in python requires self param
+        - Initialization
+            - important feature in oop
+            - allows for creation of attributes or settings of values
+            - allows all obj creation to be done in one line
+        - Method Objects
+            - the ability to store a function in variable
+    - Inheritence
+    - Iterators and generators
+    - Modulating code
