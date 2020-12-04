@@ -2,9 +2,10 @@
 `Started 03-Dec-2020`
 
 # Todo
-
+04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
 
 # Log
+04-Dec-2020 argparse module
 04-Dec-2020 templates, changed the database folder inside cookbook
 04-Dec-2020 modulation
 04-Dec-2020 inheritence, polymorphism

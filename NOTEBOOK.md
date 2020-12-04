@@ -84,3 +84,12 @@
             - bad placeholder: value error
         - ^ handled by safe_substitute()
         - custom delimeter could be overrided
+    - Argparse
+        - module allows neat familiar argument parsing for pyth programs
+        - Auto formats
+        - interface python system module grab args from cli
+        - Arg types
+            - positional arguments: required arguments
+                - does not require dash[-] because its not an option
+            - optional arguments: could be used or not
+            - mutually exclusive arguments: select one of the discretized options
