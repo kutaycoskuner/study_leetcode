@@ -93,3 +93,19 @@
                 - does not require dash[-] because its not an option
             - optional arguments: could be used or not
             - mutually exclusive arguments: select one of the discretized options
+        - Regular Expression
+            - or Regex is pattern matching language
+            - search, find, replace, validation
+            - Metacharacters > special meaning
+            - Regular characters > literal meaning
+        - Multithreadding
+            - threads can be thought as a separate programs running along side each other
+            - however they run with one process, means that they can share data among each other
+            - Threads can be used for quick tasks like calculating a result from algorythm with slow process
+            - Asyncronous tasks
+                - some tasks can require longer time, while some require real timme
+                - we can set up threads to run background write or search files while user interacting with interface
+            - Locks
+                - lock is block to data used by multiple thread at the same time
+            - Semaphores
+                - restricts access to the thread

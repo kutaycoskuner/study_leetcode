@@ -5,6 +5,7 @@
 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
 
 # Log
+05-Dec-2020 regex, multithreading, async, lock
 04-Dec-2020 argparse module
 04-Dec-2020 templates, changed the database folder inside cookbook
 04-Dec-2020 modulation
