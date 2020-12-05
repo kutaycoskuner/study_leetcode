@@ -17,3 +17,6 @@
 03-Dec-2020 read, write
 03-Dec-2020 organization, main, for
 01-Feb-2019 Basics
+
+# Commenting
+05-Dec-2020 networking de gecici olarak biraktim daha onceki konulari pratikle daha iyi kavramam lazim

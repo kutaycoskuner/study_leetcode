@@ -109,3 +109,25 @@
                 - lock is block to data used by multiple thread at the same time
             - Semaphores
                 - restricts access to the thread
+        - Networking
+            - networking is concept of two programs communicating
+                - client to client
+                - client to server
+                - client to itself
+            - client is end device interfacing with human
+            - server is a device providing service for clients
+            - Client server model
+                - constant running
+                - ex. browser - google server
+            - peer to peer model
+                - does not req constant running
+                - ex. skype
+            - Adress: ip ex. '127.0.0.1'
+            - Port: 1-1024 reserved for core protocols 1024 to 65535
+                - pigeon holes on network card
+                - tell the incoming data what program to go 
+            - Sockets: programming abstraction for connections
+                - allow to communicate bidirectional
+                - TCP, UDP protocols
+            - TCP: Transmission control protocol
+                - reliable connection based protocol
