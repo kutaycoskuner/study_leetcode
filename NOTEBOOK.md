@@ -75,6 +75,9 @@
             - ex. physic engines, networking tools, gui
 
 - <Advanced>
+    - Package Management
+        - PIP is a package management system used to install and manage software packages/libraries written in Python. These files are stored in a large “on-line repository” termed as Python Package Index (PyPI).
+        - Its automatically installed with python
     - Templates
         - part of string module
         - allows data to change without having to edit the app
@@ -131,3 +134,8 @@
                 - TCP, UDP protocols
             - TCP: Transmission control protocol
                 - reliable connection based protocol
+            - UDP: User datagram protocol
+                - unreliable connection-less based protocol
+                - low overhead
+                - used for voip, online games, streaming
+                - does not control the data therefore fast 
