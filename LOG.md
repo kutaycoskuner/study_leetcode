@@ -5,6 +5,7 @@
 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
 
 # Log
+08-Dec-2020 distributed polymorphism, poly class'i modul olarak ayirdim
 07-Dec-2020 networking basics
 05-Dec-2020 regex, multithreading, async, lock
 04-Dec-2020 argparse module
