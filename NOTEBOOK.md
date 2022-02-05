@@ -1,6 +1,10 @@
 # Notebook
 `Started 03-Dec-2020`
 
+# Links
+- Drapstv Python  
+    https://www.youtube.com/watch?v=LRlDngwgiuw&list=PL1A2CSdiySGLPTXm0cTxlGYbReGqTcGRA&index=6  
+
 - <Beginner>
     - Variables and data structurees
         - Variable
