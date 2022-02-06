@@ -23,7 +23,8 @@
 - 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
 
 # Log
-- 06-Feb-2022 1.03.1    fix: leetcode14: longest common prefix
+- 06-Feb-2022 1.04      std: leetcode 20: valid paranthesis
+- 06-Feb-2022 1.03.1    fix: leetcode 14: longest common prefix
 - 06-Feb-2022 1.03  std: leetcode 14: longest common prefix
 - 06-Feb-2022 1.02  std: leetcode 13: roman to integer converter
 - 06-Feb-2022 1.01  std: palindrome leetcode
