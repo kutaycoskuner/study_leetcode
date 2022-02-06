@@ -23,7 +23,8 @@
 - 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
 
 # Log
-- 06-Feb-2022 1.02  std: roman to integer converter leetcode: 13
+- 06-Feb-2022 1.03  std: leetcode 14: longest common prefix
+- 06-Feb-2022 1.02  std: leetcode 13: roman to integer converter
 - 06-Feb-2022 1.01  std: palindrome leetcode
 - 06-Feb-2022 1.0   std: two sum leetcode
 - 06-Feb-2022 1.0   arch: questions, timelog, basic added
