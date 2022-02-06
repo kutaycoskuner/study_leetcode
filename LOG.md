@@ -23,6 +23,7 @@
 - 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
 
 # Log
+- 06-Feb-2022 1.01  std: palindrome leetcode
 - 06-Feb-2022 1.0   std: two sum leetcode
 - 06-Feb-2022 1.0   arch: questions, timelog, basic added
 - 08-Dec-2020 distributed polymorphism, poly class'i modul olarak ayirdim
