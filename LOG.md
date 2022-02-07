@@ -23,6 +23,7 @@
 - 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
 
 # Log
+- 06-Feb-2022 1.05      std: leetcode 69: truncated sqrt(x)
 - 06-Feb-2022 1.04      std: leetcode 20: valid paranthesis
 - 06-Feb-2022 1.03.1    fix: leetcode 14: longest common prefix
 - 06-Feb-2022 1.03  std: leetcode 14: longest common prefix
