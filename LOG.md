@@ -23,6 +23,7 @@
 - 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
 
 # Log
+- 11-Feb-2022 1.06      wip: leetocde 26: remove duplicate from sorted array 
 - 06-Feb-2022 1.05.1    fix: leetcode 69: truncated sqrt(x)
 - 06-Feb-2022 1.05      std: leetcode 69: truncated sqrt(x)
 - 06-Feb-2022 1.04      std: leetcode 20: valid paranthesis
