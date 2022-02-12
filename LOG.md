@@ -20,9 +20,11 @@
 # Todo
 
 # Problems
-- 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
+- [x] 12-Feb-2022 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
+    - >>> quit() cikiyor
 
 # Log
+- 12-Feb-2022 1.08      std: leetcode 119: pascal triangle ii
 - 11-Feb-2022 1.07      wip: leetcode 21: merge two sorted lists
 - 11-Feb-2022 1.06      wip: leetcode 26: remove duplicate from sorted array 
 - 06-Feb-2022 1.05.1    fix: leetcode 69: truncated sqrt(x)
