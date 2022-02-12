@@ -24,6 +24,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 12-Feb-2022 1.09      std: leetcode 1672: Richest Customer Wealth
 - 12-Feb-2022 1.08      std: leetcode 119: pascal triangle ii
 - 11-Feb-2022 1.07      wip: leetcode 21: merge two sorted lists
 - 11-Feb-2022 1.06      wip: leetcode 26: remove duplicate from sorted array 

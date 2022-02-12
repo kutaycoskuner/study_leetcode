@@ -39,7 +39,7 @@ def Main():
     t1 = [[1,5],[7,3],[3,5]]                              # :: istenilen: 10 
     t2 = [[2,8,7],[7,1,3],[1,9,5]]                        # :: istenilen: 17 
 
-    # ==== test py 
+    # ==== testpy 
     print(solution(t0))
     print(solution(t1))
     print(solution(t2))
