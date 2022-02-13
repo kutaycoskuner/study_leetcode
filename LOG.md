@@ -18,12 +18,18 @@
 - mix: multiple additions
 
 # Todo
+- 12-Feb-2022 linked list ogren
+- 12-Feb-2022 hash tree ogren
+- 12-Feb-2022 complexity analysis ogren
+    - space complexity
+    - time compexity
 
 # Problems
 - [x] 12-Feb-2022 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
     - >>> quit() cikiyor
 
 # Log
+- 13-Feb-2022 1.10      std: leetcode 405: Convert Number to Hexadecimal
 - 12-Feb-2022 1.09      std: leetcode 1672: Richest Customer Wealth
 - 12-Feb-2022 1.08      std: leetcode 119: pascal triangle ii
 - 11-Feb-2022 1.07      wip: leetcode 21: merge two sorted lists
