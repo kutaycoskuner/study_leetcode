@@ -29,6 +29,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 17-Feb-2022 1.11      std: leetcode 1572: matrix diagonal sum
 - 13-Feb-2022 1.10      std: leetcode 405: Convert Number to Hexadecimal
 - 12-Feb-2022 1.09      std: leetcode 1672: Richest Customer Wealth
 - 12-Feb-2022 1.08      std: leetcode 119: pascal triangle ii

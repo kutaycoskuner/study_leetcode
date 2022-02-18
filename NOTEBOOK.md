@@ -11,7 +11,9 @@
 - Space Complexity
 
 
-
+- abstract data type
+    - dictionary, hashmap | o(1)
+    - kelime saydiracaksin 
 
 
 - <Beginner>
