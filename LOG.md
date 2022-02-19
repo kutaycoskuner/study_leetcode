@@ -25,10 +25,12 @@
     - time compexity
 
 # Problems
+- 18-Feb-2022 vsc de comment color cok karanlik gorunmuyor biraz aydinlat
 - [x] 12-Feb-2022 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
     - >>> quit() cikiyor
 
 # Log
+- 19-Feb-2022 1.11.1    std: leetcode 21: merge two sorted lists
 - 17-Feb-2022 1.11      std: leetcode 1572: matrix diagonal sum
 - 13-Feb-2022 1.10      std: leetcode 405: Convert Number to Hexadecimal
 - 12-Feb-2022 1.09      std: leetcode 1672: Richest Customer Wealth
