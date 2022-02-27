@@ -31,6 +31,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 27-Feb-2022 1.12.1    wip: leetcode 1710: maximum units on a truck; merge sort; dictionaries
 - 27-Feb-2022 1.12      org: comment problemi, todo update
 - 26-Feb-2022 1.11.2    std: leetcode 26: remove duplicates from sorted array
 - 19-Feb-2022 1.11.1    std: leetcode 21: merge two sorted lists
