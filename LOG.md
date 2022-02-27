@@ -30,6 +30,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 26-Feb-2022 1.11.2    std: leetcode 26: remove duplicates from sorted array
 - 19-Feb-2022 1.11.1    std: leetcode 21: merge two sorted lists
 - 17-Feb-2022 1.11      std: leetcode 1572: matrix diagonal sum
 - 13-Feb-2022 1.10      std: leetcode 405: Convert Number to Hexadecimal
