@@ -18,18 +18,20 @@
 - mix: multiple additions
 
 # Todo
-- 12-Feb-2022 linked list ogren
+- [x] 19-Feb-2022 12-Feb-2022 linked list ogren
 - 12-Feb-2022 hash tree ogren
 - 12-Feb-2022 complexity analysis ogren
     - space complexity
     - time compexity
 
 # Problems
-- 18-Feb-2022 vsc de comment color cok karanlik gorunmuyor biraz aydinlat
+- [x] 27-Feb-2022 18-Feb-2022 vsc de comment color cok karanlik gorunmuyor biraz aydinlat
+    - dbdbdb yaptim | comment disiplinini guncelledim. 1.2
 - [x] 12-Feb-2022 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
     - >>> quit() cikiyor
 
 # Log
+- 27-Feb-2022 1.12      org: comment problemi, todo update
 - 26-Feb-2022 1.11.2    std: leetcode 26: remove duplicates from sorted array
 - 19-Feb-2022 1.11.1    std: leetcode 21: merge two sorted lists
 - 17-Feb-2022 1.11      std: leetcode 1572: matrix diagonal sum
