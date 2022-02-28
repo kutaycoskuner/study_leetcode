@@ -34,7 +34,7 @@ def mergeSort(arr):
         k = 0   # :: merged array index
         # -------
         while i < len(left) and j < len(right):
-            if left[i] < right[j]:
+            if left[i][1] > right[j][1]:
                     arr[k] = left[i]
                     i += 1
             else:
@@ -47,20 +47,22 @@ def mergeSort(arr):
             i += 1
             k += 1
         # -------
-        while i < len(right):
-            arr[k] = right[i]
-            i += 1
+        while j < len(right):
+            arr[k] = right[j]
+            j += 1
             k += 1
     
     
 def solution(boxTypes, truckSize):
     # :: kutulari icindeki obje sayilarina gore sort et 
-    # dict = {}
-    # for ii in range(0, len(boxTypes)):
-    #     dict[boxTypes[ii][1]] = boxTypes[ii]
+    # :: built in sort
+    # boxTypes = sorted(boxTypes, key = lambda x: x[1], reverse = True)
+    
+    # :: self written sort
+    mergeSort(boxTypes)
+    # print(boxTypes)
 
-    
-    
+    # :: bubble sort
     # ii = 0
     # while ii < len(boxTypes)-1:
     #     if boxTypes[ii][1] < boxTypes[ii+1][1]:
