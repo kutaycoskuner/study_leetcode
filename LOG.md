@@ -31,6 +31,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 08-Mar-2022 1.14.1    std: leetcode 811: Subdomain visit count
 - 03-Mar-2022 1.13.1    wip: leetcode 193: valid phone numbers
 - 28-Feb-2022 1.13      std: leetcode 1710: maximum units on a truck
 - 27-Feb-2022 1.12.1    wip: leetcode 1710: maximum units on a truck; merge sort; dictionaries
