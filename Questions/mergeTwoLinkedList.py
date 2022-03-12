@@ -20,9 +20,6 @@
 
 # == Classes
 # :: Definition for singly-linked list.
-from re import A
-
-
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val

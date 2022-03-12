@@ -23,6 +23,7 @@
 - 12-Feb-2022 complexity analysis ogren
     - space complexity
     - time compexity
+- 11-Mar-2022 debugging calis
 
 # Problems
 - [x] 27-Feb-2022 18-Feb-2022 vsc de comment color cok karanlik gorunmuyor biraz aydinlat
@@ -30,7 +31,8 @@
 - [x] 12-Feb-2022 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
     - >>> quit() cikiyor
 
-# Log
+# Log 
+- 12-Mar-2022 1.15.1    std: leetcode 142: Linked list cycle II 
 - 08-Mar-2022 1.14.1    std: leetcode 811: Subdomain visit count
 - 03-Mar-2022 1.13.1    wip: leetcode 193: valid phone numbers
 - 28-Feb-2022 1.13      std: leetcode 1710: maximum units on a truck

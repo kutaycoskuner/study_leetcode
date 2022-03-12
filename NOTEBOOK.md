@@ -15,6 +15,19 @@
     - dictionary, hashmap | o(1)
     - kelime saydiracaksin 
 
+- <Hashing with chaining>
+    - dictionary: abstract data type(adt)
+    - maintaining set of items, each with a key
+    - insert, delete, search | eact search -> either you find or key error | does not exists
+    - insert overwrite
+    - dict.item(key,value )
+    - search = contant time
+    - substring stearch, doclist, database, compiler and interpereter, network router
+    - file/dir synchronication | hashing 
+    - simple approach
+        - direct access table
+        - store items in array
+        - indexed by keys
 
 - <Beginner>
     - Variables and data structurees
