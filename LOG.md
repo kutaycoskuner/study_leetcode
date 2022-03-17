@@ -32,9 +32,11 @@
     - >>> quit() cikiyor
 
 # Log 
+- 17-Mar-2022 1.16      std: leetcode 24: Swap nodes in pairs
+- 13-Mar-2022 1.15.2    fix: leetcode 1: two sum
 - 12-Mar-2022 1.15.1    std: leetcode 142: Linked list cycle II 
 - 08-Mar-2022 1.14.1    std: leetcode 811: Subdomain visit count
-- 03-Mar-2022 1.13.1    wip: leetcode 193: valid phone numbers
+- 03-Mar-2022 1.13.1    wip: leetcode 193: valid phone numbers [!]
 - 28-Feb-2022 1.13      std: leetcode 1710: maximum units on a truck
 - 27-Feb-2022 1.12.1    wip: leetcode 1710: maximum units on a truck; merge sort; dictionaries
 - 27-Feb-2022 1.12      org: comment problemi, todo update
