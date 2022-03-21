@@ -6,6 +6,12 @@
     https://www.youtube.com/watch?v=LRlDngwgiuw&list=PL1A2CSdiySGLPTXm0cTxlGYbReGqTcGRA&index=6  
 
 
+# Algorithms
+- merge sort algorithym
+- permutation algorithm
+    - recursive backtrack
+        https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+
 # Theory
 - Time Complexity
 - Space Complexity
