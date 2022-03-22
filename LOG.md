@@ -32,6 +32,7 @@
     - >>> quit() cikiyor
 
 # Log 
+- 22-Mar-2022 1.18      std: leetcode 819: most common word
 - 21-Mar-2022 1.17      std: leetcode 47: permutations II (algoritmayi baska bir yerden alarak yaptim) | eksik
 - 17-Mar-2022 1.16      std: leetcode 24: Swap nodes in pairs
 - 13-Mar-2022 1.15.2    fix: leetcode 1: two sum
