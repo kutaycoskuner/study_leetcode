@@ -32,6 +32,7 @@
     - >>> quit() cikiyor
 
 # Log 
+- 03-Apr-2022 1.20      std: leetcode 28: strstr()
 - 02-Apr-2022 1.19      std: leetcode 48: rotate image
 - 22-Mar-2022 1.18      std: leetcode 819: most common word
 - 21-Mar-2022 1.17      std: leetcode 47: permutations II (algoritmayi baska bir yerden alarak yaptim) | eksik

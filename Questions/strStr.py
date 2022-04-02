@@ -26,29 +26,11 @@
 
 # == Solution
 def solution(hay, needle):
-    match = True
     # :: hay loopa basla
-    ii = 0
-    while ii < len(hay):
+    for ii in range (len(hay)):
         # :: ilk karakterle karsilasma bul
-        if hay[ii] == needle[0]:
-
-            # :: match resetle
-            match = True
-            # :: sonrkaileri karsilastir
-            for jj in range(0, len(needle)):
-                # print(needle[jj], " ", hay[jj + ii])
-                # :: n. karakter tutmuyor ise
-                if needle[jj] != hay[ii + jj]:
-                    ii += jj
-                    match = False
-                    break
-
-            # :: return
-            if match:
-                return ii
-        ii += 1
-
+        if hay[ii:ii+len(needle)] == needle:
+            return ii
     return -1
 
 
@@ -68,7 +50,8 @@ def Main():
         "hello",
         "aaaaa",
         "kutai kutai kutai kutay",
-        "missisisssipississipsipi"
+        "missisisssipississipsipipisisipis"
+        #012345678901234567890123
     ]
 
     input2 = [
@@ -82,7 +65,7 @@ def Main():
         2,
         -1,
         18,
-        10
+        15
     ]
 
     # :: test batch
