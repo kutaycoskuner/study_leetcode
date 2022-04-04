@@ -32,6 +32,7 @@
     - >>> quit() cikiyor
 
 # Log 
+- 03-Apr-2022 1.20.1    upg: leetcode 28: strstr() II
 - 03-Apr-2022 1.20      std: leetcode 28: strstr()
 - 02-Apr-2022 1.19      std: leetcode 48: rotate image
 - 22-Mar-2022 1.18      std: leetcode 819: most common word
