@@ -13,13 +13,23 @@
         https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
 
 # Theory
-- Time Complexity
-- Space Complexity
+- <algorith analysis>
+    - Time Complexity
+    - Space Complexity
 
+- <syntactic sugar>
 
-- abstract data type
-    - dictionary, hashmap | o(1)
-    - kelime saydiracaksin 
+- <binary search>
+
+- <merge sort>
+
+- <Recursion>
+    - functions calling themselves
+    - base case, recursive logic, bactracking
+    - palindrome, decimal to binary, binary search 
+
+- <abstract data type>
+    - dictionary, hashmap | o(1) 
 
 - <Hashing with chaining>
     - dictionary: abstract data type(adt)

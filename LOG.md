@@ -19,10 +19,12 @@
 
 # Todo
 - [x] 19-Feb-2022 12-Feb-2022 linked list ogren
-- 12-Feb-2022 hash tree ogren
+- [x] 08-Mar-2022 12-Feb-2022 hash tree ogren
 - 12-Feb-2022 complexity analysis ogren
     - space complexity
     - time compexity
+- 08-Mar-2022 recursion
+- 08-Mar-2022 tree
 - 11-Mar-2022 debugging calis
 
 # Problems
@@ -32,6 +34,7 @@
     - >>> quit() cikiyor
 
 # Log 
+- 08-Apr-2022 1.21      std: leetcode 1046: last stone weight
 - 03-Apr-2022 1.20.1    upg: leetcode 28: strstr() II
 - 03-Apr-2022 1.20      std: leetcode 28: strstr()
 - 02-Apr-2022 1.19      std: leetcode 48: rotate image
