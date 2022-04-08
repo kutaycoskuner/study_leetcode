@@ -45,6 +45,18 @@
         - store items in array
         - indexed by keys
 
+- <stream>
+    - stram is a sequecnce of data elements made available over time potantially unlimited data
+    - twitter messages, online news, ideo streams, sensor data, market orders
+
+- <heap>
+    - priority que
+    - en kucuk/en buyuk k ile ilgilendigin zaman
+    - is adt | maximally efficient implementation ?
+    - heap is specialized tree based data structure which is esentially an almost complete
+
+
+# Old
 - <Beginner>
     - Variables and data structurees
         - Variable
