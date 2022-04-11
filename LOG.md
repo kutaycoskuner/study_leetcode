@@ -40,6 +40,7 @@
     - >>> quit() cikiyor
 
 # Log 
+- 11-Apr-2022 1.24      std: leetcode 66: plus one
 - 11-Apr-2022 1.23      std: leetcode 217: contains duplicate
 - 09-Apr-2022 1.22      std: leetcode 703: k largest element in a stream
 - 08-Apr-2022 1.21      std: leetcode 1046: last stone weight
