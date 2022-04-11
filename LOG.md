@@ -17,6 +17,12 @@
 - wip: work in progress
 - mix: multiple additions
 
+# Push procedure
+- add log
+- chane file name to question
+- change time log
+- push
+
 # Todo
 - [x] 19-Feb-2022 12-Feb-2022 linked list ogren
 - [x] 08-Mar-2022 12-Feb-2022 hash tree ogren
@@ -34,6 +40,7 @@
     - >>> quit() cikiyor
 
 # Log 
+- 11-Apr-2022 1.23      std: leetcode 217: contains duplicate
 - 09-Apr-2022 1.22      std: leetcode 703: k largest element in a stream
 - 08-Apr-2022 1.21      std: leetcode 1046: last stone weight
 - 03-Apr-2022 1.20.1    upg: leetcode 28: strstr() II

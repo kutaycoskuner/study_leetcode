@@ -13,6 +13,21 @@
         https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
 
 # Theory
+- <memoization>
+    - recursion icindeki redundancylere o1 time li ekle
+
+- <dynamic programming>
+
+- <quick sort>
+
+- <trees | tries>
+
+- <graphs>
+
+- <stacks | queue>
+
+- <breadth-first search>
+
 - <algorith analysis>
     - Time Complexity
     - Space Complexity
