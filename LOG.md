@@ -19,7 +19,7 @@
 
 # Push procedure
 - add log
-- chane file name to question
+- change file name to question
 - change time log
 - push
 
@@ -40,7 +40,8 @@
 - [x] 12-Feb-2022 04-Dec-2020 ctrl-c infinite looplarda calismiyor bir cozum bul
     - >>> quit() cikiyor
 
-# Log 
+# Log
+- 15-Apr-2022 1.25.1    upg: leetcode 1: Two Sum 2
 - 14-Apr-2022 1.25      std: leetcode 53: maximum subarray
 - 11-Apr-2022 1.24      std: leetcode 66: plus one
 - 11-Apr-2022 1.23      std: leetcode 217: contains duplicate
