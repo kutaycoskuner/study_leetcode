@@ -29,9 +29,10 @@
 - 12-Feb-2022 complexity analysis ogren
     - space complexity
     - time compexity
-- 08-Mar-2022 recursion
-- 08-Mar-2022 tree
-- 11-Mar-2022 debugging calis
+- 08-Apr-2022 recursion
+- 08-Apr-2022 tree
+- 11-Apr-2022 debugging calis
+- 12-Apr-2022 command line parameter: py main.py de butun test cast -dash ise n. test case
 
 # Problems
 - [x] 27-Feb-2022 18-Feb-2022 vsc de comment color cok karanlik gorunmuyor biraz aydinlat
@@ -40,6 +41,7 @@
     - >>> quit() cikiyor
 
 # Log 
+- 14-Apr-2022 1.25      std: leetcode 53: maximum subarray
 - 11-Apr-2022 1.24      std: leetcode 66: plus one
 - 11-Apr-2022 1.23      std: leetcode 217: contains duplicate
 - 09-Apr-2022 1.22      std: leetcode 703: k largest element in a stream
