@@ -17,10 +17,10 @@
 - wip: work in progress
 - mix: multiple additions
 
-# Push procedure 1.1
+# Push procedure 1.2
 - add log
-- check todo
 - change file name to question
+- check todo
 - change time log
 - push
 
@@ -42,6 +42,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 18-Apr-2022 1.27      std: leetcode 350: Intersection of two arrays II [need-optimization]
 - 18-Apr-2022 1.26      std: leetcode 88: merge sorted array
 - 15-Apr-2022 1.25.1    upg: leetcode 1: Two Sum 2
 - 14-Apr-2022 1.25      std: leetcode 53: maximum subarray
