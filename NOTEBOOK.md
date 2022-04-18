@@ -21,6 +21,10 @@
 - <quick sort>
 
 - <trees | tries>
+    - traverse: tree ustunde yurumek
+    - binary tree: sol node roottan kucuk sag node roottan buyuk
+    - red and black tree
+    - ayrik matematik | discrete matematik
 
 - <graphs>
 
