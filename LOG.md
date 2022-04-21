@@ -42,6 +42,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 21-Apr-2022 1.29      std: leetcode 566: reshape the matrix
 - 21-Apr-2022 1.28      std: leetcode 121: best time to buy and sell stock; python command line argument
 - 18-Apr-2022 1.27      std: leetcode 350: Intersection of two arrays II [need-optimization]
 - 18-Apr-2022 1.26      std: leetcode 88: merge sorted array
