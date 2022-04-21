@@ -27,13 +27,13 @@
 # Todo
 - [x] 19-Feb-2022 12-Feb-2022 linked list ogren
 - [x] 08-Mar-2022 12-Feb-2022 hash tree ogren
+- [x] 21-Apr-2022 12-Apr-2022 command line parameter: py main.py de butun test cast -dash ise n. test case
 - 12-Feb-2022 complexity analysis ogren
     - space complexity
     - time compexity
 - 08-Apr-2022 recursion
 - 08-Apr-2022 tree
 - 11-Apr-2022 debugging calis
-- 12-Apr-2022 command line parameter: py main.py de butun test cast -dash ise n. test case
 
 # Problems
 - [x] 27-Feb-2022 18-Feb-2022 vsc de comment color cok karanlik gorunmuyor biraz aydinlat
@@ -42,6 +42,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 21-Apr-2022 1.28      std: leetcode 121: best time to buy and sell stock; python command line argument
 - 18-Apr-2022 1.27      std: leetcode 350: Intersection of two arrays II [need-optimization]
 - 18-Apr-2022 1.26      std: leetcode 88: merge sorted array
 - 15-Apr-2022 1.25.1    upg: leetcode 1: Two Sum 2
