@@ -42,6 +42,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 23-Apr-2022 1.32      std: leetcode 74: Search a 2d matrix
 - 23-Apr-2022 1.31      std: leetcode 36: Valid sudoku [!-memory]
 - 21-Apr-2022 1.30      std: leetcode 118: Pascal triangle
 - 21-Apr-2022 1.29      std: leetcode 566: reshape the matrix
