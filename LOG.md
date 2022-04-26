@@ -42,6 +42,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 27-Apr-2022 1.36      std: leetcode 141: Linked list cycle
 - 25-Apr-2022 1.35      std: leetcode 242: Valid anagram
 - 25-Apr-2022 1.34      std: leetcode 383: Ransom note 
 - 24-Apr-2022 1.33      std: leetcode 387: First unique character in string

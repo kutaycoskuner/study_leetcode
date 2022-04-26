@@ -7,8 +7,8 @@
 # . https://leetcode.com/problems/search-a-2d-matrix/
 
 # == Result
-# . time:   92.33
-# . memory: 21.55
+# . time:   58
+# . memory: 90
 
 # == Procedure
 # . - template edit if any
