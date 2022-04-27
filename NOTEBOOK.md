@@ -75,7 +75,7 @@
     - heap is specialized tree based data structure which is esentially an almost complete
 
 
-# 
+# Notes
 - fundamentals, projects, networking, interview
 - [patching]
 
