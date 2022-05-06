@@ -34,6 +34,7 @@
     - time compexity
 - 08-Apr-2022 recursion
 - 08-Apr-2022 tree
+    - [x] 07-May-2022 binary tree 
 - 11-Apr-2022 debugging calis
 - 27-Apr-2022 soru template i icin otomasyon programi hazirla
 
@@ -44,6 +45,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 07-May-2022 1.39      std: leetcode 144: Binary tree preorder traversal
 - 30-Apr-2022 1.38      std: leetcode 232: Implementing queue using stacks
 - 27-Apr-2022 1.37      mix: std: leetcode 203: Remove linked list elements; imp: Linked list cycle 2
 - 27-Apr-2022 1.36      std: leetcode 141: Linked list cycle

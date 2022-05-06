@@ -5,6 +5,9 @@
 - Drapstv Python  
     https://www.youtube.com/watch?v=LRlDngwgiuw&list=PL1A2CSdiySGLPTXm0cTxlGYbReGqTcGRA&index=6  
 
+# Questions
+- what data structure will you use to store a modfiable collection?
+    - https://youtu.be/pYT9F8_LFTM?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&t=48
 
 # Algorithms
 - merge sort algorithym
@@ -13,6 +16,8 @@
         https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
 
 # Theory
+- <binary expression tree>
+
 - <memoization>
     - recursion icindeki redundancylere o1 time li ekle
 
