@@ -45,6 +45,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 07-May-2022 1.39.1    upg: leetcode 74: search a 2d matrix
 - 07-May-2022 1.39      std: leetcode 144: Binary tree preorder traversal
 - 30-Apr-2022 1.38      std: leetcode 232: Implementing queue using stacks
 - 27-Apr-2022 1.37      mix: std: leetcode 203: Remove linked list elements; imp: Linked list cycle 2
@@ -52,7 +53,7 @@
 - 25-Apr-2022 1.35      std: leetcode 242: Valid anagram
 - 25-Apr-2022 1.34      std: leetcode 383: Ransom note 
 - 24-Apr-2022 1.33      std: leetcode 387: First unique character in string
-- 23-Apr-2022 1.32      std: leetcode 74: Search a 2d matrix [!-time]
+- 23-Apr-2022 1.32      std: leetcode 74: Search a 2d matrix
 - 23-Apr-2022 1.31      std: leetcode 36: Valid sudoku [!-memory]
 - 21-Apr-2022 1.30      std: leetcode 118: Pascal triangle
 - 21-Apr-2022 1.29      std: leetcode 566: reshape the matrix
