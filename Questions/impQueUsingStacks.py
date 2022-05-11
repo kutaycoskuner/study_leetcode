@@ -82,6 +82,7 @@ class Node:
 class StackLL:
     def __init__(self):
         self.head = None
+        self.size = 0
 
     def asArray(self):
         curr = self.head
@@ -97,9 +98,12 @@ class StackLL:
     def push(self, val):
         if self.head == None:
             self.head = Node(val)
+            self.size += 1
             return
         newNode = Node(val, self.head)
-        self.head = newNode  
+        self.head = newNode
+        self.size += 1
+
 
     def pop(self):
         if self.head == None:
@@ -107,6 +111,7 @@ class StackLL:
         step = self.head
         step = step.next
         self.head = step
+        self.size -= 1
 
     def peek(self):
         if self.head == None:
@@ -149,7 +154,7 @@ class MyQueue:
     def peek(self) -> int:
         return self.stackRevert.peek()
 
-    def empty(self)  -> bool:
+    def isEmpty(self)  -> bool:
         return self.stackRevert.isEmpty()
 
 # == Functions

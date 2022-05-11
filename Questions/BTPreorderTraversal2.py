@@ -3,7 +3,7 @@
 # . Template 2.9
 # . Start Date 03-Mai-2022
 # . leetcode: 144
-# . level : easy
+# . levelStack : easy
 # . https://leetcode.com/problems/binary-tree-preorder-traversal/
 
 # == Procedure
@@ -29,18 +29,46 @@
 # . memory  61
 
 # == Notes
-# . +-- 10
-# .     +-- 5
-# .         +-- 2
-# .         +-- 6  
-# .     +-- 15
-# .         +-- 14
-# .         +-- 17
+# . test cases
+# . ---------- Test case 1
+# . []
+# . ---------- test case 2
+# . +-- 3
+# . ---------- test case 3
+# . +-- 3
+# .     +-- 1
+# . ---------- test case 4
+# . +-- 3
+# .     +-- 4
+# . ---------- test case 5
+# . +-- 3
+# .     +-- 1
+# .     +-- 4
+# . ---------- test case 6
+# . +-- 5                      # 0
+# .     +-- 4                  # 1       
+# .         +-- 3              # 2
+# .     +-- 6                  # 1
+# .         +-- 7              # 2
+# Stack             List            Level
+# [3]               []
+# []                [3]              0
 
+# [2, 5]            [3]                 
+# [5]               [3, 2]           1
+
+# [1, 5]            [3, 2]
+# [5]               [3, 2, 1]        2    
+# []                [3, 2, 1, 5]     1
+
+# [4, 6]            [3, 2, 1, 5]    
+# [6]               [3, 2, 1, 5, 4]  2
 
 # == Libraries
 import sys
 from impQueUsingStacks import StackLL
+from impQueUsingStacks import MyQueue
+from random import random
 
 # == Classes
 class TreeNode: 
@@ -107,19 +135,48 @@ class Tree:
 
 
 # == Functions
-# todo recursive olmadan naisl yazilabilir?
-def printTree(node, tabCount=0, list=[]):
+def printTree2(node, tabCount=0, list=[]):
+    # :: defense: check if head exists
     if node == None:
-        return None
-    # print(tabCount * '    ', '+--', node.val)
-    # tabCount += 1
-    stack = StackLL()
-    while node != None:
-        stack.push(node)
-        list.append(node.val)
-        node = node.left
-    # stack.pop()
-    # node = stack.peek().right
+        return "no tree"
+    # :: initialize traverse state
+    nodeStack = MyQueue()
+    nodeStack.push(node)
+    # :: loop on node
+    while not nodeStack.isEmpty(): 
+        curr = nodeStack.peek()
+        # :: do stuff with node
+        list.append(curr.val)
+        # :: iterate node
+        nodeStack.pop()
+        if curr.left != None:
+            nodeStack.push(curr.left)
+        if curr.right!= None:
+            nodeStack.push(curr.right)
+    return list
+
+# :: non recursive
+def printTree(node, list=[]):
+    # :: defense: check if head exists
+    if node == None:
+        return "no tree"
+    # :: initialize traverse state
+    nodeStack = StackLL()
+    nodeStack.push([node, 0]) #:: [node.val, node.level]
+    # :: loop on node
+    while not nodeStack.isEmpty(): 
+        currArgs = nodeStack.peek()
+        curr = currArgs[0]
+        currLevel = currArgs[1]
+        # :: do stuff with node
+        print((currLevel) * '    ' ,'+--', curr.val)
+        list.append(curr.val)
+        # :: iterate node
+        nodeStack.pop()
+        if curr.right!= None:
+            nodeStack.push([curr.right, currLevel + 1])
+        if curr.left != None:
+            nodeStack.push([curr.left, currLevel + 1])
 
     return list
 
@@ -157,8 +214,8 @@ def Main():
     case7 = [5,4,6,3,7]
     case8 = []
 
-    for ii in range(1500):
-        case8.append(ii)
+    for ii in range(20):
+        case8.append(int(5000*random()))
 
     # :: parameter
     activeTest = case7
@@ -172,7 +229,9 @@ def Main():
     # :: control statements
     # print(sogut.stepMove('r'))
     print(printTree1(sogut.root))
+    # print(printTree(sogut.root))
     print(printTree(sogut.root))
+
     # queue.push(2)
 
     return 

@@ -66,15 +66,21 @@ class LinkedList:
                 return "list index does not exists"
         return curr.val
 
-    def asArray(self):
+    def traversePrint(self):
+        # :: defense control
+        if self.head == None:
+            return "linked list is empty"
+        # :: initialize traverse state
         curr = self.head
-        arr = []
-        while curr.next != None:
-            arr.append(curr.val)
+        ll = ''
+        # :: control if more node exists
+        while curr != None:
+            # :: do stuff node
+            ll += str(curr.val)
+            ll += ' -> '
+            # :: iterate node(s)
             curr = curr.next
-        arr.append(curr.val)
-        curr = curr.next
-        return arr
+        print(ll)
 
     def asArray(self):
         curr = self.head
@@ -168,9 +174,10 @@ def Main():
     for ii in range(0, len(listData[0])):
         listA.add(listData[0][ii])
 
+    listA.traversePrint()
     # print(listA.asArray())
-    listA.connect(listData[1])
-    print(listA.detectCycleTime())
+    # listA.connect(listData[1])
+    # print(listA.detectCycleTime())
     return 
 
     # ==== test batch

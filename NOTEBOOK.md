@@ -30,6 +30,32 @@
     - binary tree: sol node roottan kucuk sag node roottan buyuk
     - red and black tree
     - ayrik matematik | discrete matematik
+    - temsil
+        - +-- 5
+        -     +-- 3
+        -         +-- 1
+        -     +-- 7
+        -         +-- 9 
+        # . test cases
+        # . ---------- Test case 1
+        # . []
+        # . ---------- test case 2
+        # . +-- 3
+        # . ---------- test case 3
+        # . +-- 3
+        # .     +-- 1
+        # . ---------- test case 4
+        # . +-- 3
+        # .     +-- 4
+        # . ---------- test case 5
+        # . +-- 3
+        # .     +-- 1
+        # .     +-- 4
+        # . ---------- test case 6
+        # . +-- 3
+        # .     +-- 1
+        
+        # .     +-- 4
 
 - <graphs>
 
