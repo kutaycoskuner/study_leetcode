@@ -18,10 +18,10 @@ class StackLL:
 
     def push(self, val):
         if self.head == None:
-            self.head = Node(val)
+            self.head = Node.Node(val)
             self.size += 1
             return
-        newNode = Node(val, self.head)
+        newNode = Node.Node(val, self.head)
         self.head = newNode
         self.size += 1
 

@@ -65,7 +65,7 @@ class BinaryTree:
         mapping[0] = self.root
         counter = 0
         # :: insert
-        for ii in range(len(list)//2+2):   
+        for ii in range(len(list)//2):   
             if list[ii] != None:
                 iL = counter*2 + 1 
                 iR = counter*2 + 2

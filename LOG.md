@@ -49,6 +49,8 @@
     - >>> quit() cikiyor
 
 # Log
+- 16-May-2022 1.44      std: leetcode 101: Symmetric Tree
+- 15-May-2022 1.43      std: leetcode 104: Maximum Depth of Binary Tree
 - 15-May-2022 1.42      std: leetcode 102: Binary tree level order traversal; org: Data Structures
 - 12-May-2022 1.41.2    upg: leetcode 144: Binary tree preorder traversal without recursion
 - 08-May-2022 1.41.1    wip: leetcode 144: Binary tree preorder traversal without recursion
