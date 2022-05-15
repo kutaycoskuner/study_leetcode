@@ -29,6 +29,7 @@
 - [x] 08-Mar-2022 12-Feb-2022 hash tree ogren
 - [x] 21-Apr-2022 12-Apr-2022 command line parameter: py main.py de butun test cast -dash ise n. test case
 - [x] 30-Apr-2022 27-Apr-2022 stack/que
+- [x] 15-May-2022 DataStructures ayri klasore; node, ll, stack, queue
 - 12-Feb-2022 complexity analysis ogren
     - space complexity
     - time compexity
@@ -36,8 +37,10 @@
 - 08-Apr-2022 tree
     - [x] 07-May-2022 binary tree 
     - [x] 12-May-2022 preorder, inorder, postorder traversal
+    - [x] 15-May-2022 binary tree level order traversal
 - 11-Apr-2022 debugging calis
-- 27-Apr-2022 soru template i icin otomasyon programi hazirla
+- 27-Apr-2022 soru template i icin otomasyon progrsami hazirla
+- 15-May-2022 utilities klasoru hazirla: date formatter; log n; random number generator
 
 # Problems
 - [x] 27-Feb-2022 18-Feb-2022 vsc de comment color cok karanlik gorunmuyor biraz aydinlat
@@ -46,7 +49,8 @@
     - >>> quit() cikiyor
 
 # Log
-- 12-May-2022 1.42.2    upg: leetcode 144: Binary tree preorder traversal without recursion
+- 15-May-2022 1.42      std: leetcode 102: Binary tree level order traversal; org: Data Structures
+- 12-May-2022 1.41.2    upg: leetcode 144: Binary tree preorder traversal without recursion
 - 08-May-2022 1.41.1    wip: leetcode 144: Binary tree preorder traversal without recursion
 - 07-May-2022 1.41      std: leetcode 145: Binary tree postorder traversal
 - 07-May-2022 1.40      std: leetcode 94: Binary tree inorder traversal
