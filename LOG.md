@@ -49,6 +49,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 21-May-2022 1.45      std: leetcode 226: invert Binary Tree; upg: maxdepth recursive; arch: testcases
 - 16-May-2022 1.44      std: leetcode 101: Symmetric Tree
 - 15-May-2022 1.43      std: leetcode 104: Maximum Depth of Binary Tree
 - 15-May-2022 1.42      std: leetcode 102: Binary tree level order traversal; org: Data Structures
