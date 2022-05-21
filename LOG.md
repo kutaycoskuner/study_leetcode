@@ -38,6 +38,11 @@
     - [x] 07-May-2022 binary tree 
     - [x] 12-May-2022 preorder, inorder, postorder traversal
     - [x] 15-May-2022 binary tree level order traversal
+    - freecode camp binary search tree
+    - 21-May-2022 trie
+    - 21-May-2022 generic tree
+- 21-May-2022 graph
+    - 21-May-2022 graph minimization
 - 11-Apr-2022 debugging calis
 - 27-Apr-2022 soru template i icin otomasyon progrsami hazirla
 - 15-May-2022 utilities klasoru hazirla: date formatter; log n; random number generator
@@ -49,6 +54,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 21-May-2022 1.46      std: leetcode 509: fibonacci number both recursive and iterative
 - 21-May-2022 1.45      std: leetcode 226: invert Binary Tree; upg: maxdepth recursive; arch: testcases
 - 16-May-2022 1.44      std: leetcode 101: Symmetric Tree
 - 15-May-2022 1.43      std: leetcode 104: Maximum Depth of Binary Tree
