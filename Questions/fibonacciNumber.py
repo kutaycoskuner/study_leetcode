@@ -29,6 +29,9 @@
 # . memory  
 
 # == Notes
+# . memoization: ayni isi yeniden yapiyor musun redundant work eleme
+# . dynamic prgramlama konsepti 2 | memoization tabulation
+
 # . +-- 1
 # .     +-- 2
 # .         +-- 3
@@ -57,14 +60,28 @@ from DataStructures import BinaryTree
 # == Functions
 
 # == Solution
-def solutionRecursive(n):
+def solution(n, dict={}):           # :: o(n) solution
+    # :: base case
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    if n in dict:
+        return dict[n]
+    # :: recursive logic with memoization
+    answer = solution(n-1, dict) + solution(n-2, dict)
+    dict[n] = answer
+    return answer 
+
+def solutionRecursion(n):           # :: o(2**n) solution
     # :: base case
     if n == 0:
         return 0
     if n == 1:
         return 1
     # :: recursive logic
-    return solutionRecursive(n-1) + solutionRecursive(n-2) 
+    return solution(n-1) + solution(n-2) 
+
 
 
 def solutionIterative(n):
@@ -137,7 +154,11 @@ def Main():
         4,
         5,
         6,
-        7
+        7,
+        14,
+        30,
+        40,
+        60
     ]
 
     input2 = [
@@ -150,7 +171,11 @@ def Main():
         3,
         5,
         8,
-        13
+        13,
+        "-",
+        "-",
+        "-",
+        "-"
     ]
 
     # :: argument identification

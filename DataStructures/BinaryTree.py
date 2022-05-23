@@ -60,12 +60,15 @@ class BinaryTree:
     def listToBTree(self, list):
         # :: mapping
         mapping = {}
+        # :: 
+        if self.root == None:
+            return None
         # :: create root
         self.root = TreeNode(list[0])
         mapping[0] = self.root
         counter = 0
         # :: insert
-        for ii in range(len(list)//2):   
+        for ii in range(len(list)//2+2):   
             if list[ii] != None:
                 iL = counter*2 + 1 
                 iR = counter*2 + 2
@@ -99,3 +102,25 @@ class BinaryTree:
                     newChildR = TreeNode(list[iR])
                     mapping[iR] = newChildR
                     mapping[ii].right = mapping[iR]
+
+    def preprint(self, node=-1, tabCount=0, list=[]):
+        if self.root == None:
+            return None
+        if node == -1:
+            node = self.root
+        if node != None:
+            print(tabCount * '    ', '+--', node.val)
+            tabCount += 1
+            self.preprint(node.left, tabCount, list)
+            self.preprint(node.right, tabCount, list)
+
+    def preorderList(self, node=-1, tabCount=0, list=[]):
+        if self.root == None:
+            return None
+        if node == -1:
+            node = self.root
+        if node != None:
+            list.append(node.val)
+            self.preorderList(node.left, tabCount, list)
+            self.preorderList(node.right, tabCount, list)
+            return list

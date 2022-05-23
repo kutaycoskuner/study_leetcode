@@ -36,7 +36,23 @@ import sys
 # == Functions
 
 # == Solution
-def solution(numRows):
+def solution(n, tri=[[1]]):
+    # :: edge case
+    if n == 1:
+        return tri
+    # :: base case
+
+    # :: recursive logic
+    row = [1,1]
+    lastRow = tri[len(tri)-1]
+    if len(lastRow) > 1:
+        for ii in range(len(lastRow)-1):
+            row.insert(-1,lastRow[ii] + lastRow[ii+1])
+    tri.append(row)
+    return solution(n-1, tri)
+
+
+def solutionIterative(numRows):
     newRow = [1]
     pascal = [[1]]
     iteration = 1
@@ -60,13 +76,17 @@ def solution(numRows):
 def Main():
     # ==== test batch
     input1 = [
-        5,
-        1
+        1,
+        2,
+        3,
+        5
     ]
 
     output1 = [
-        [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]],
-        [[1]]
+        [[1]],
+        [[1],[1,1]],
+        [[1],[1,1],[1,2,1]],
+        [[1], [1,1], [1,2,1], [1,3,3,1], [1,4,6,4,1]]
     ]
 
     # :: argument identification
@@ -78,7 +98,10 @@ def Main():
     if args == None:
         for ii in range(len(output1)):  # len(test1)
             print("Test " + str(ii+1) + " Output: " +
-                str(solution(input1[ii])) + "\t Expected: " + str(output1[ii]) + '\n' + str((solution(input1[ii]) == output1[ii])))
+                str(solution(input1[ii])) + "\t Expected: " + str(output1[ii]))
+            print(str((solution(input1[ii]) == output1[ii])))
+            print(type(solution(input1[ii])), type(output1[ii]))
+
     else:
         answer = solution(input1[args-1])
         print("Test " + str(args) + " Output: " +

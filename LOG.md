@@ -30,10 +30,9 @@
 - [x] 21-Apr-2022 12-Apr-2022 command line parameter: py main.py de butun test cast -dash ise n. test case
 - [x] 30-Apr-2022 27-Apr-2022 stack/que
 - [x] 15-May-2022 DataStructures ayri klasore; node, ll, stack, queue
-- 12-Feb-2022 complexity analysis ogren
-    - space complexity
-    - time compexity
-- 08-Apr-2022 recursion
+- [x] 23-May-2022 08-Apr-2022 recursion
+- [x] 23-May-2022 memoization
+- 23-May-2022 debuggerin lokasyonu belirten json olustur.
 - 08-Apr-2022 tree
     - [x] 07-May-2022 binary tree 
     - [x] 12-May-2022 preorder, inorder, postorder traversal
@@ -41,6 +40,9 @@
     - freecode camp binary search tree
     - 21-May-2022 trie
     - 21-May-2022 generic tree
+- 12-Feb-2022 complexity analysis ogren
+    - space complexity
+    - time compexity
 - 21-May-2022 graph
     - 21-May-2022 graph minimization
 - 11-Apr-2022 debugging calis
@@ -54,6 +56,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 23-May-2022 1.47      std: leetcode 112: pathSum; upg: fibonacci memoization; org: architecture;
 - 21-May-2022 1.46      std: leetcode 509: fibonacci number both recursive and iterative
 - 21-May-2022 1.45      std: leetcode 226: invert Binary Tree; upg: maxdepth recursive; arch: testcases
 - 16-May-2022 1.44      std: leetcode 101: Symmetric Tree
