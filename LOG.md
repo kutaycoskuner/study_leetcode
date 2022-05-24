@@ -32,14 +32,14 @@
 - [x] 15-May-2022 DataStructures ayri klasore; node, ll, stack, queue
 - [x] 23-May-2022 08-Apr-2022 recursion
 - [x] 23-May-2022 memoization
-- 23-May-2022 debuggerin lokasyonu belirten json olustur.
-- 08-Apr-2022 tree
+- [x] 08-Apr-2022 tree
     - [x] 07-May-2022 binary tree 
     - [x] 12-May-2022 preorder, inorder, postorder traversal
     - [x] 15-May-2022 binary tree level order traversal
     - freecode camp binary search tree
     - 21-May-2022 trie
     - 21-May-2022 generic tree
+- 23-May-2022 debuggerin lokasyonu belirten json olustur.
 - 12-Feb-2022 complexity analysis ogren
     - space complexity
     - time compexity
@@ -56,6 +56,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 24-May-2022 1.49      std: leetcode 700: search in binary tree; std: leetcode 701: insert in binary tree | last tempalte -> pathSum
 - 23-May-2022 1.47      std: leetcode 112: pathSum; upg: fibonacci memoization; org: architecture;
 - 21-May-2022 1.46      std: leetcode 509: fibonacci number both recursive and iterative
 - 21-May-2022 1.45      std: leetcode 226: invert Binary Tree; upg: maxdepth recursive; arch: testcases
