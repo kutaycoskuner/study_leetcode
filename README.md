@@ -9,3 +9,8 @@ Python learning and external memory repository
 -  Open Python file  
     - py <filename>.py  
 
+- New question
+    1. add questions/<new question>
+    2. change testcases/<related test file>
+    3. add main to calling function from test cases
+

@@ -6,7 +6,7 @@ from TestCases import tree
 def Main():
 
     # :: change the current test function
-    tree.pathSum()
+    tree.nAryLevelOrder()
 
 
 if __name__ == "__main__":

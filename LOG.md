@@ -17,9 +17,8 @@
 - wip: work in progress
 - mix: multiple additions
 
-# Push procedure 1.2
+# Push procedure 1.3
 - add log
-- change file name to question
 - check todo
 - change time log
 - push
@@ -36,9 +35,10 @@
     - [x] 07-May-2022 binary tree 
     - [x] 12-May-2022 preorder, inorder, postorder traversal
     - [x] 15-May-2022 binary tree level order traversal
+    - [x] 26-May-2022 21-May-2022 generic tree
     - freecode camp binary search tree
     - 21-May-2022 trie
-    - 21-May-2022 generic tree
+- 26-May-2022 shallow / deep copy
 - 23-May-2022 debuggerin lokasyonu belirten json olustur.
 - 12-Feb-2022 complexity analysis ogren
     - space complexity
@@ -56,6 +56,7 @@
     - >>> quit() cikiyor
 
 # Log
+- 26-May-2022 1.49.1    wip: leetcode 429: N-ary Tree Level Order Traversal
 - 24-May-2022 1.49      std: leetcode 700: search in binary tree; std: leetcode 701: insert in binary tree | last tempalte -> pathSum
 - 23-May-2022 1.47      std: leetcode 112: pathSum; upg: fibonacci memoization; org: architecture;
 - 21-May-2022 1.46      std: leetcode 509: fibonacci number both recursive and iterative

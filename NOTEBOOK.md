@@ -16,6 +16,11 @@
         https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
 
 # Theory
+- <shallow/deep copy>
+
+- <mutable/immutable>
+    - degismez/degisir
+
 - <binary expression tree>
 
 - <memoization>

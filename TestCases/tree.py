@@ -1,9 +1,11 @@
 #
 # ==== Libraries
 from DataStructures import BinaryTree
+from DataStructures import NAryTree
 from Questions import maximumDepthofBT
 from Questions import invertBT
-from Questions import pathSum as x
+from Questions import pathSum
+from Questions import nAryTreeLevelOrderTraversal as nAryLevelOrder
 
 # ==== Test cases
 null = None
@@ -21,6 +23,9 @@ case10 = [3,9,20,None,None,15,7,1,5,6,23,23]
 case11 = [1,2,None,3,None,4,None,5]
 case12 = [1,2,None,3,None,None,None,4,None,None,None,None,None,None,None,5,None]
 case13 = [5,4,8,11,null,13,4,7,2,null,null,null,1]
+# :: generic tree
+case14 = [1,null,3,2,4,null,5,6]
+case15 = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]
 
 
 input2_1 = 22 # :: true for case13
@@ -47,6 +52,13 @@ def pathSum():
     mese = BinaryTree.BinaryTree()
     mese.listToBTree(case1)
     mese.preprint()
-    print(x.solution(mese.root, input2_3))
+    # print(x.solution(mese.root, input2_3))
     print(mese.preorderList())
+    return
+
+def nAryLevelOrder():
+    ardic = NAryTree.NAryTree()
+    ardic.listToTree(case15)
+    ardic.preprint()
+
     return

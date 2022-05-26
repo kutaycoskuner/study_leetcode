@@ -60,27 +60,25 @@ class BinaryTree:
     def listToBTree(self, list):
         # :: mapping
         mapping = {}
-        # :: 
-        if self.root == None:
-            return None
         # :: create root
-        self.root = TreeNode(list[0])
-        mapping[0] = self.root
-        counter = 0
-        # :: insert
-        for ii in range(len(list)//2+2):   
-            if list[ii] != None:
-                iL = counter*2 + 1 
-                iR = counter*2 + 2
-                counter += 1
-                if iL < len(list) and list[iL] != None:
-                    newChildL = TreeNode(list[iL])
-                    mapping[iL] = newChildL
-                    mapping[ii].left = mapping[iL]
-                if iR < len(list) and list[iR] != None:    
-                    newChildR = TreeNode(list[iR])
-                    mapping[iR] = newChildR
-                    mapping[ii].right = mapping[iR]
+        if len(list) > 0:
+            self.root = TreeNode(list[0])
+            mapping[0] = self.root
+            counter = 0
+            # :: insert
+            for ii in range(len(list)//2+2):   
+                if list[ii] != None:
+                    iL = counter*2 + 1 
+                    iR = counter*2 + 2
+                    counter += 1
+                    if iL < len(list) and list[iL] != None:
+                        newChildL = TreeNode(list[iL])
+                        mapping[iL] = newChildL
+                        mapping[ii].left = mapping[iL]
+                    if iR < len(list) and list[iR] != None:    
+                        newChildR = TreeNode(list[iR])
+                        mapping[iR] = newChildR
+                        mapping[ii].right = mapping[iR]
 
     def listToBCTree(self, list):
         # :: mapping
