@@ -5,7 +5,7 @@ from DataStructures import NAryTree
 from Questions import maximumDepthofBT
 from Questions import invertBT
 from Questions import pathSum
-from Questions import nAryTreeLevelOrderTraversal as nAryLevelOrder
+from Questions import nAryTreeLevelOrderTraversal as GTLevelOrder
 
 # ==== Test cases
 null = None
@@ -60,5 +60,5 @@ def nAryLevelOrder():
     ardic = NAryTree.NAryTree()
     ardic.listToTree(case15)
     ardic.preprint()
-
+    print(GTLevelOrder.levelOrder(ardic.root))
     return

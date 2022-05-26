@@ -46,9 +46,30 @@ from DataStructures import BinaryTree
 def solution():
     pass
 
-def levelOrder(node):
-    pass  
-
+def levelOrder(root):
+    # :: defensive root var mi?
+    if root == None:
+        return []
+    # :: variables
+    node = root
+    nodeQue = []
+    list = [[node.val]]
+    # :: init state 
+    nodeQue.insert(0, [node, 0]) # :: insert node, level
+    # :: insert children 
+    while len(nodeQue) > 0:
+        node = nodeQue[len(nodeQue)-1][0]
+        level = nodeQue[len(nodeQue)-1][1]
+        for ii in range(len(node.children)):
+            # :: yeni row varsa yeni liste ekle
+            if level + 1 >= len(list):
+                list.append([])
+            # :: node u que ya ekle
+            nodeQue.insert(0, [node.children[ii], level+1])
+            # :: ilgili seviyenin listesine ekle
+            list[level+1].append(node.children[ii].val)
+        nodeQue.pop()
+    return list
 
 
 def Main():
