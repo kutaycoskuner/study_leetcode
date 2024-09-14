@@ -57,6 +57,11 @@
     - >>> quit() cikiyor
 
 # Log
+- [1.52] organized documentation, readme update
+    - 15-Sep-2024
+        - update readme
+        - arch: organize log, notebook and timelog in _documentation
+
 - 13-Jul-2022 1.51      org: Stack implementation as class
 - 26-May-2022 1.50      std: leetcode 429: N-ary tree level order traversal
 - 26-May-2022 1.49.1    wip: leetcode 429: N-ary Tree Level Order Traversal
